@@ -1,6 +1,6 @@
 if game.Players.LocalPlayer.UserId == 1962086868 or game.Players.LocalPlayer.UserId == 1962086868 or game.Players.LocalPlayer.UserId == 3821744031 or game.Players.LocalPlayer.UserId == 3821744031 or game.Players.LocalPlayer.UserId == 3721982045 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAmeteurCoder/TowerOfHelll/main/Harks", true))()
    else
-    local b = Instance.new("BindableFunction")
+   local b = Instance.new("BindableFunction")
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "You are not whilelisted", Text = "Skill issue ngl ", Duration = 5, Callback = b, Button1 = "shut up"})
 end
